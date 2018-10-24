@@ -15,6 +15,7 @@ In JavaScript there are different kinds of loops.
 **LABELED STATEMENT**
 
 **THE FOR-LOOP:**  The FOR-LOOP is used when you know in advance how many times the script should run.
+
 **SYNTAX:**
 ```
 for (initializer;exit-condition;final-expression){
@@ -38,6 +39,7 @@ for (i = 1; i <= 6; i++)
 ```
 
 **THE WHILE LOOP:**  The while loop is used when you want the loop to execute and continue executing while the specified condition is true.
+
 **SYNTAX:**
 ```
 initializer 
@@ -79,6 +81,7 @@ The number is 10
 ```
 
 **THE Do...WHILE LOOP:**  The do...while loop is a variant of the while loop. This loop will always execute a block of code ONCE, and then it will repeat the loop as long as the specified condition is true.
+
 **SYNTAX:**
 ```
 initializer 
