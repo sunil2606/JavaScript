@@ -1,4 +1,4 @@
-1. **What are Data types & how many are there?**
+ **What are Data types & how many are there?**
 There are 7 types of data types in JavaScript.
 
 1. Boolean - The boolean type has only two values: true and false.
