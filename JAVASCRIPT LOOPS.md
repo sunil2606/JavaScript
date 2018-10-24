@@ -186,6 +186,25 @@ for (variable in object) {
 statements
 }
 ```
+
+**EXAMPLE:**  
+```
+<html>
+<body>
+<script type="text/javascript">
+var x
+var mycars = new Array()
+mycars[0] = "Audi"
+mycars[1] = "Volvo"
+mycars[2] = "BMW"
+for (x in mycars)
+{
+document.write(mycars[x] + "<br />")
+}
+</script>
+</body>
+</html>
+```
 **FOR...OF STATEMENT:**  The for...of Statement creates a loop iterating over iterable objects (including Array, MAp, Set, arguments object and so on), invoking a custom iteration hook with statements to be executes for the value of each distinct property.
 
 **SYNTAX**
