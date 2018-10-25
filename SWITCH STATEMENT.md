@@ -1,5 +1,6 @@
 ### How To Use the Switch Statement in JavaScript
 **Introduction**
+
 Conditional statements are among the most useful and common features of all programming languages. 
 
 In addition to if...else, JavaScript has a feature known as a switch statement. switch is a type of conditional statement that will evaluate an expression against multiple possible cases and execute one or more blocks of code based on matching cases. The switch statement is closely related to a conditional statement containing many else if blocks, and they can often be used interchangeably.
