@@ -1,0 +1,16 @@
+const user = {
+  id: 229,
+  name: 'John',
+  email: 'john@awesome.com'
+};
+
+function replacer(key, value) {
+  console.log(typeof value);
+  if (key === 'email') {
+    return undefined;
+  }
+  return value;
+}
+
+const userStr = JSON.stringify(user, replacer);
+// "{"id":229,"name":"John"}"
