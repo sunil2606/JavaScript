@@ -96,3 +96,13 @@ It means empty type.
 null
 ```
 
+### JSON.parse()
+**JSON.parse()** can take an second argument for a reviver function that can transform the object values before they are returned. Here the object’s values are uppercased in the returned object of the parse method.
+
+**NOTE:**  Trailing commas are not valid in JSON, so JSON.parse() throws if the string passed to it has trailing commas.
+
+
+### JSON.stringify()
+**JSON.stringify()** can take two additional arguments, the first one being a replacer function and the second a String or Number value to use as a space in the returned string.
+
+The replacer function can be used to filter-out values because any value returned as undefined will be out of the returned string.
