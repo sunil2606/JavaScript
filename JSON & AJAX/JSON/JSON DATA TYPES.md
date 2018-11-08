@@ -97,7 +97,7 @@ null
 ```
 
 ### JSON.parse()
-**JSON.parse()** can take an second argument for a reviver function that can transform the object values before they are returned. Here the object’s values are uppercased in the returned object of the parse method.
+**JSON.parse()** can take an second argument for a reviver function that can transform the object values before they are returned. Here the objectâ€™s values are uppercased in the returned object of the parse method.
 
 **NOTE:**  Trailing commas are not valid in JSON, so JSON.parse() throws if the string passed to it has trailing commas.
 
