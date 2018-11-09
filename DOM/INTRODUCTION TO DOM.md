@@ -3,6 +3,7 @@
 When a Web page is loaded, the browser creates a Document Object Model of the page.
 
 **What is DOM ?**
+
 The DOM is a W3C (World Wide Web Consortium) Standard.
 "The W3C Document Object Model (DOM) is a platform and language neutral interface that allows  programs and scripts to dynamically access and update the content, structure, & style of a document".
 
